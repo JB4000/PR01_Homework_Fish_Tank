@@ -151,9 +151,9 @@ public class FishTank {
         // including the latest health check with data and time
 
 
-        //
-
+        // printing this tanks name on top of fish list
         System.out.printf("These are the fish in: %s\n", this.tankName);
+
         // traverse the fish in the collection
         // print them using the overridden toString in Fish class
 
