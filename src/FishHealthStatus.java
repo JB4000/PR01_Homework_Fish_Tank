@@ -26,11 +26,11 @@ public class FishHealthStatus {
         this.commentOnCheck = commentOnCheck;
     }
 
-    public String getDateOfCheck (String dateOfCheck) {
+    public String getDateOfCheck () {
         return this.dateOfCheck;
     }
 
-    public String getCommentOnCheck (String commentOnCheck) {
+    public String getCommentOnCheck () {
         return this.commentOnCheck;
     }
 
