@@ -3,12 +3,12 @@ public class FishTankWaterStatus {
     // declaring and initializing static variable
     // array of Strings
     // used for enum of water quality before a water change
-    public static final String[] mapPreChangeQuality = {"perfect", "good", "okay", "bad"};
+    public static final String[] MAP_PRE_CHANGE_QUALITY = {"perfect", "good", "okay", "bad"};
 
     // declaring non-static / instance variables for a water change
     private String dateOfChange;
     private String commentOnChange;
-    // the int mapped to Strings in mapPreChangeQuality
+    // the int mapped to Strings in MAP_PRE_CHANGE_QUALITY
     private int preChangeQuality;
 
     // constructor with all parameters
@@ -25,8 +25,8 @@ public class FishTankWaterStatus {
 
     // overridden toString method
     public String toString() {
-        // enum with mapPreChangeQuality String and preChangeQuality int happening here
-        return String.format("%-27s Water quality before water change: %-15s Comment:  %-65s", this.dateOfChange, mapPreChangeQuality[this.preChangeQuality], this.commentOnChange);
+        // enum with MAP_PRE_CHANGE_QUALITY String and preChangeQuality int happening here
+        return String.format("%-27s Water quality before water change: %-15s Comment:  %-65s", this.dateOfChange, MAP_PRE_CHANGE_QUALITY[this.preChangeQuality], this.commentOnChange);
 
     }
 
